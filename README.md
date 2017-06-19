@@ -60,19 +60,20 @@ Quick start
 To quickly install and fire-up OFBiz, please follow the below instructions
 from the command line at the OFBiz top level directory (folder)
 
-### Prepare OFBiz:
+### Prepare OFBiz 首次运行下载依赖项:
 
 __Note__: Depending on your Internet connection speed it might take a long
 time for this step to complete if you are using OFBiz for the first time
 as it needs to download all dependencies. So please be patient!
 根据您的互联网连接速度，如果您首次使用OFBiz，因为需要下载所有依赖项，此步骤可能需要很长时间才能完成。 所以请耐心等待
+
 MS Windows:
 `gradlew cleanAll loadDefault`
 
 Unix-like OS:
 `./gradlew cleanAll loadDefault`
 
-### Start OFBiz:
+### Start OFBiz 启动项目:
 
 MS Windows:
 `gradlew ofbiz`
@@ -80,13 +81,13 @@ MS Windows:
 Unix-like OS:
 `./gradlew ofbiz`
 
-### Visit OFBiz through your browser:
+### Visit OFBiz through your browser 通过浏览器访问(用户名：admin 密码 ofbiz):
 
-[Order Back Office](https://localhost:8443/ordermgr)
+[Order Back Office https://localhost:8443/ordermgr](https://localhost:8443/ordermgr)
 
-[Accounting Back Office](https://localhost:8443/accounting)
+[Accounting Back Office https://localhost:8443/accounting](https://localhost:8443/accounting)
 
-[Administrator interface](https://localhost:8443/webtools)
+[Administrator interface https://localhost:8443/webtools](https://localhost:8443/webtools)
 
 You can log in with the user __admin__ and password __ofbiz__.
 
