@@ -65,7 +65,7 @@ from the command line at the OFBiz top level directory (folder)
 __Note__: Depending on your Internet connection speed it might take a long
 time for this step to complete if you are using OFBiz for the first time
 as it needs to download all dependencies. So please be patient!
-
+根据您的互联网连接速度，如果您首次使用OFBiz，因为需要下载所有依赖项，此步骤可能需要很长时间才能完成。 所以请耐心等待
 MS Windows:
 `gradlew cleanAll loadDefault`
 
