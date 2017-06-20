@@ -80,7 +80,9 @@ MS Windows:
 
 Unix-like OS:
 `./gradlew ofbiz`
-
+### 创建三个myql库：ofbiz  ofbizolap  ofbiztenant:
+   数据源配置53行：ofbiz-16.11.02/framework/entity/config/entityengine.xml
+   拷贝mysql驱动到 ofbiz-16.11.02/lib目录
 ### Visit OFBiz through your browser 通过浏览器访问(用户名：admin 密码 ofbiz):
 
 [Order Back Office https://localhost:8443/ordermgr](https://localhost:8443/ordermgr)
@@ -88,6 +90,7 @@ Unix-like OS:
 [Accounting Back Office https://localhost:8443/accounting](https://localhost:8443/accounting)
 
 [Administrator interface https://localhost:8443/webtools](https://localhost:8443/webtools)
+[商城 https://localhost:8443/ecommerce](https://localhost:8443/ecommerce)
 
 You can log in with the user __admin__ and password __ofbiz__.
 
