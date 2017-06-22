@@ -123,12 +123,19 @@ a Unix-like system, you need to add the `./` to gradlew
 There are two types of tasks designed for OFBiz in Gradle:
 
 - __Standard tasks__: To execute general standard Gradle tasks
+  __标准任务__：执行一般标准的Gradle任务
 
 - __OFBiz server tasks__: To execute OFBiz startup commands. These
   tasks start with one of the following words:
   - __ofbiz__ : standard server commands
+    __启动服务__ : ./gradlew ofbiz
   - __ofbizDebug__ : server commands running in remote debug mode
+    __debug模式启动服务__: ./gradlew "ofbizDebug --start"  idea开启监听才会继续启动
   - __ofbizBackground__ ; server commands running in a background forked process
+    __守护模式启动服务__:  ./gradlew ofbizBackground
+    __停止服务__:        ./gradlew "ofbiz --shutdown"
+    __查看服务状态__:     ./gradlew "ofbiz --status"
+    
 
 Tips: 
 
